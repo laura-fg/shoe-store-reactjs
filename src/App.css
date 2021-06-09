@@ -14,25 +14,72 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color:black;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 15px;
+  justify-content: space-around;
+}
+
+body{
+  font-family: 'Nova Slim', cursive !important;
+}
+
+
+a{
+  text-decoration:none;
+  color: white !important;
+  font-size: 18px;
+}
+
+.search{
+  background-color: black;
+  height: 70px;
+  padding-top: 8px;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.menu-superior{
+  display: flex;
+}
+
+.card{
+  background-color: transparent !important;
+}
+
+
+footer{
+  display: flex !important;
+  justify-content:space-around;
+  padding-top: 25px;
+  height:220px;
+  background-color: black;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.cupom{
+  background-color:#1d1bb5 ;
+  font-size: 20px;
+  height:100px;
+  width:100px;
+  border: 1px solid transparent;
+  border-radius:50px;
+  padding-top: 35px;
+  position: relative;
+  top: -60px;
+  animation: bounce 1s normal infinite;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@keyframes bounce{
+  0% { transform: translateY(0);}
+
+  25% { transform: translateY(-80px);}
+
+  50% { transform: translateY(-200px);}
+
+  75% { transform: translateY(-80px);}
+
+  100% { transform: translateY(0);}
 }

@@ -1,0 +1,16 @@
+.pi-star-o{
+    font-size:26px !important;
+}
+
+.pi-star-o::before{
+    font-size:26px !important;
+}
+
+.pi-star-o::after{
+    font-size:26px !important;
+}
+
+h5{
+    font-size: 22px !important;
+}
+
